@@ -1,0 +1,115 @@
+    <div
+      className="absolute z-10 left-1/2 top-[78.5%] -translate-x-1/2 -translate-y-1/2
+                 w-4/5 aspect-[2/3] 
+                 flex items-center justify-center
+                 border-4 border-[#1B2F49] shadow-md bg-[#F5F3EC]"
+    >
+<div className="w-full h-[98%] border-t-2 border-b-2 border-[#1B2F49] flex items-center justify-center">
+        <div
+          className="w-[98%] h-[102.5%] flex flex-col items-center justify-start
+                        border-r-2 border-l-2 border-[#1B2F49]
+                        p-2 space-y-2"
+        >
+          <div className="flex items-center justify-center w-full px-4 flex-nowrap gap-4 max-w-full overflow-hidden">
+            <Image
+              src="/design1.png"
+              alt="asset"
+              width={80}
+              height={80}
+              className="flex-shrink-0"
+            />
+
+            <div className="text-center flex-1 min-w-0">
+              <div className="text-lg font-semibold text-[#424242] whitespace-nowrap">
+                김로켓님의 사주
+              </div>
+              <div className="text-xl font-bold text-[#424242] whitespace-nowrap truncate">
+                1980년 8월 27일 08:10
+              </div>
+            </div>
+
+            <Image
+              src="/design2.png"
+              alt="asset"
+              width={80}
+              height={80}
+              className="flex-shrink-0"
+            />
+          </div>
+          <div className="w-full px-4">
+            <table className="table-auto border-collapse w-full ">
+              <thead>
+                <tr>
+                  <th className="border-b border-r"></th>
+                  <th className="border-b border-r px-4 py-2 font-serif font-semibold text-3xl">
+                    時
+                  </th>
+                  <th className="border-b border-r px-4 py-2 font-serif font-semibold text-3xl">
+                    日
+                  </th>
+                  <th className="border-b border-r px-4 py-2 font-serif font-semibold text-3xl">
+                    月
+                  </th>
+                  <th className="border-b border-r px-4 py-2 font-serif font-semibold text-3xl">
+                    年
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">
+                    <Item hanja="十星" hangeul="십성" />
+                  </td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">6</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+                <tr>
+                  <td className="border-b border-r px-4 py-2">7</td>
+                  <td className="border-b border-r px-4 py-2">2</td>
+                  <td className="border-b border-r px-4 py-2">3</td>
+                  <td className="border-b border-r px-4 py-2">4</td>
+                  <td className="border-b border-r px-4 py-2">5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+</div>
