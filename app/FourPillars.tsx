@@ -130,7 +130,7 @@ export default function FourPillars() {
                         className={`w-[90%] aspect-square relative
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col justify-center text-center leading-2">
                           <div className={`${smallfont}`}>임</div>
                           <div className={`${bigfont}`}>壬</div>
                           <div className={`${smallfont}`}>陽水</div>
@@ -144,7 +144,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square 
                             rounded-xl bg-red-500 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>정</div>
                           <div className={`${bigfont}`}>丁</div>
                           <div className={`${smallfont}`}>陰火</div>
@@ -158,7 +158,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square 
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>계</div>
                           <div className={`${bigfont}`}>癸</div>
                           <div className={`${smallfont}`}>陽水</div>
@@ -172,7 +172,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>계</div>
                           <div className={`${bigfont}`}>癸</div>
                           <div className={`${smallfont}`}>陽水</div>
@@ -192,7 +192,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square
                             rounded-xl bg-green-900 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>인</div>
                           <div className={`${bigfont}`}>寅</div>
                           <div className={`${smallfont}`}>陽木</div>
@@ -206,7 +206,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square
                             rounded-xl bg-red-500 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>사</div>
                           <div className={`${bigfont}`}>巳</div>
                           <div className={`${smallfont}`}>陰火</div>
@@ -220,7 +220,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>해</div>
                           <div className={`${bigfont}`}>亥</div>
                           <div className={`${smallfont}`}>陰水</div>
@@ -234,7 +234,7 @@ export default function FourPillars() {
                         className={`relative w-[90%] aspect-square
                             border-2 rounded-xl bg-white text-black`}
                       >
-                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-2">
                           <div className={`${smallfont}`}>유</div>
                           <div className={`${bigfont}`}>酉</div>
                           <div className={`${smallfont}`}>陰金</div>
