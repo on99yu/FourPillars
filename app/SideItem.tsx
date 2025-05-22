@@ -10,8 +10,8 @@ interface FourPillarsItemProps {
 const SideItem: React.FC<FourPillarsItemProps> = ({ hanja, hangeul }) => {
   return (
     <div className="text-center font-semibold">
-      <div className="text-sm max-[450px]:text-xs max-[400px]:text-[0.625rem] max-[330px]:text-[0.5rem] max-[310px]:text-[0.375rem]">{hanja}</div>
-      <div className="text-xs max-[450px]:text-[0.625rem] max-[400px]:text-[0.5rem] max-[330px]:text-[0.375rem]">({hangeul})</div>
+      <div className="text-xs max-[448px]:text-[0.625rem] max-[400px]:text-[0.55rem] max-[330px]:text-[0.5rem] ">{hanja}</div>
+      <div className="text-[0.625rem] max-[448px]:text-[0.55rem] max-[400px]:text-[0.5rem] max-[330px]:text-[0.45rem]">({hangeul})</div>
     </div>
   );
 };

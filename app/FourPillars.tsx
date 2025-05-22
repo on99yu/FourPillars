@@ -4,10 +4,13 @@ import Image from "next/image";
 import Item from "./Item";
 import SideItem from "./SideItem";
 export default function FourPillars() {
+
+  const smallfont = 'text-[0.55rem] max-[448px]:text-[0.5rem] max-[400px]:text-[0.45rem] max-[330px]:text-[0.4rem]'
+  const bigfont = 'text-3xl max-[448px]:text-2xl max-[400px]:text-xl max-[330px]:text-lg font-normal'
   return (
     <div
       id="1"
-      className="absolute z-10 left-1/2 top-[80%] -translate-x-1/2 -translate-y-1/2
+      className="absolute z-10 left-1/2 top-[81.5%] -translate-x-1/2 -translate-y-1/2
                     w-[95%] max-w-full aspect-[2/3.5]
                     flex items-center justify-center
                     border-4 border-[#1B2F49] 
@@ -15,7 +18,7 @@ export default function FourPillars() {
     >
       <div
         id="2"
-        className="w-full h-[98%]
+        className="w-full h-[98.5%]
                    flex items-center justify-center
                     border-t-2 border-b-2 border-[#1B2F49]"
       >
@@ -28,13 +31,12 @@ export default function FourPillars() {
         >
           <div
             id="4"
-            className="w-full h-[20%] 
+            className="w-full h-[15%] 
                       mt-[2%] 
-                      flex items-cetner justify-between"
+                      flex items-cetner justify-between "
           >
             <div
-              className="w-[20%] max-w-[70px] 
-                            max-[400px]:w-[18%]
+              className="w-[16%] max-w-[70px] 
                             aspect-square relative"
             >
               <Image
@@ -45,21 +47,21 @@ export default function FourPillars() {
               />
             </div>
             <div
-              className="w-[60%]
+              className="w-[50%]
                             flex flex-col items-center justify-center
                             text-center"
             >
               <div
-                className="text-lg 
-                              max-[450px]:text-base
-                              max-[400px]:text-sm
+                className="text-base 
+                              max-[448px]:text-sm
+                              max-[400px]:text-xs
                               font-semibold text-[#424242] whitespace-nowrap"
               >
                 김로켓님의 사주
               </div>
               <div
-                className="text-xl 
-                              max-[450px]:text-base
+                className="text-lg 
+                              max-[448px]:text-base
                               max-[400px]:text-sm
                               font-bold text-[#424242] whitespace-nowrap truncate"
               >
@@ -67,8 +69,7 @@ export default function FourPillars() {
               </div>
             </div>
             <div
-              className="w-[20%] max-w-[70px]
-                            max-[400px]:w-[18%]
+              className="w-[16%] max-w-[70px]
                             aspect-square relative"
             >
               <Image
@@ -80,14 +81,14 @@ export default function FourPillars() {
             </div>
           </div>
           <div
-            className="w-full h-[80%]
+            className="w-full h-[90%]
                        flex justify-center px-[2.5%] pb-[7%]
               "
           >
             <table className="w-full h-full table-fixed border-collapse">
               <thead>
-                <tr className="font-semibold text-xl max-[450px]:text-lg max-[400px]:text-base max-[340px]:text-sm ">
-                  <th className="border-b border-r"></th>
+                <tr className="font-semibold text-xl max-[448px]:text-lg max-[400px]:text-base max-[330px]:text-sm ">
+                  <th className="border-b border-r w-[18%]"></th>
                   <th className="border-b border-r  border-r-gray-400 py-2">
                     時
                   </th>
@@ -120,59 +121,62 @@ export default function FourPillars() {
                 </tr>
                 {/*  */}
                 <tr>
-                  <td className="border-b border-r ">
+                  <td className="border-b border-r">
                     <SideItem hanja="天干" hangeul="천간" />
+                  </td>
+                  <td className="border-b border-r border-r-gray-400 h-[15%]">
+                    <div className="flex justify-center">
+                      <div
+                        className={`w-[90%] aspect-square relative
+                            rounded-xl bg-gray-700 text-white`}
+                      >
+                        <div className="absolute inset-0 flex flex-col justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>임</div>
+                          <div className={`${bigfont}`}>壬</div>
+                          <div className={`${smallfont}`}>陽水</div>
+                        </div>
+                      </div>
+                    </div>
                   </td>
                   <td className="w-1/5 border-b border-r border-r-gray-400">
                     <div className="flex justify-center">
                       <div
-                        className={`w-[85%] h- 
-                            flex flex-col items-center justify-center
-                            text-center py-2
-                            rounded-xl bg-gray-700 text-white`}
-                      >
-                        <div className="text-xs">임</div>
-                        <div className="text-3xl font-bold">壬</div>
-                        <div className="text-xs">陽水</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="w-1/5 border-b border-r border-r-gray-400">
-                    <div className="flex items-center justify-center">
-                      <div
-                        className={`w-[85%] aspect-square 
-                            text-center py-2
+                        className={`relative w-[90%] aspect-square 
                             rounded-xl bg-red-500 text-white`}
                       >
-                        <div className="text-xs">정</div>
-                        <div className="text-3xl font-bold">丁</div>
-                        <div className="text-xs">陰火</div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>정</div>
+                          <div className={`${bigfont}`}>丁</div>
+                          <div className={`${smallfont}`}>陰火</div>
+                        </div>
                       </div>
                     </div>
                   </td>
                   <td className="w-1/5 border-b border-r border-r-gray-400">
-                    <div className="flex items-center justify-center">
+                    <div className="flex justify-center">
                       <div
-                        className={`w-[85%] aspect-square 
-                            text-center py-2
+                        className={`relative w-[90%] aspect-square 
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="text-xs">계</div>
-                        <div className="text-3xl font-bold">癸</div>
-                        <div className="text-xs">陽水</div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>계</div>
+                          <div className={`${bigfont}`}>癸</div>
+                          <div className={`${smallfont}`}>陽水</div>
+                        </div>
                       </div>
                     </div>
                   </td>
-                  <td className="w-1/5 border-b border-r px-2 py-1">
-                    <div className="flex items-center justify-center">
+                  <td className="w-1/5 border-b border-r">
+                    <div className="flex justify-center">
                       <div
-                        className={`w-[85%] aspect-square 
-                            text-center py-2
+                        className={`relative w-[90%] aspect-square
                             rounded-xl bg-gray-700 text-white`}
                       >
-                        <div className="text-xs">계</div>
-                        <div className="text-3xl font-bold">癸</div>
-                        <div className="text-xs">陽水</div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>계</div>
+                          <div className={`${bigfont}`}>癸</div>
+                          <div className={`${smallfont}`}>陽水</div>
+                        </div>
                       </div>
                     </div>
                   </td>
@@ -182,13 +186,65 @@ export default function FourPillars() {
                   <td className="border-b border-r">
                     <SideItem hanja="地支" hangeul="지지" />
                   </td>
-                  <td className="border-b border-r border-r-gray-400">2</td>
-                  <td className="border-b border-r border-r-gray-400">3</td>
-                  <td className="border-b border-r border-r-gray-400">4</td>
-                  <td className="border-b border-r px-2 py-1">5</td>
+                  <td className="border-b border-r border-r-gray-400 h-[15%]">
+                    <div className="flex justify-center">
+                      <div
+                        className={`relative w-[90%] aspect-square
+                            rounded-xl bg-green-900 text-white`}
+                      >
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>인</div>
+                          <div className={`${bigfont}`}>寅</div>
+                          <div className={`${smallfont}`}>陽木</div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="border-b border-r border-r-gray-400">
+                    <div className="flex justify-center">
+                      <div
+                        className={`relative w-[90%] aspect-square
+                            rounded-xl bg-red-500 text-white`}
+                      >
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>사</div>
+                          <div className={`${bigfont}`}>巳</div>
+                          <div className={`${smallfont}`}>陰火</div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="w-1/5 border-b border-r border-r-gray-400">
+                    <div className="flex justify-center">
+                      <div
+                        className={`relative w-[90%] aspect-square
+                            rounded-xl bg-gray-700 text-white`}
+                      >
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>해</div>
+                          <div className={`${bigfont}`}>亥</div>
+                          <div className={`${smallfont}`}>陰水</div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="w-1/5 border-b border-r">
+                    <div className="flex justify-center">
+                      <div
+                        className={`relative w-[90%] aspect-square
+                            border-2 rounded-xl bg-white text-black`}
+                      >
+                        <div className="absolute inset-0 flex flex-col items-center justify-center text-center leading-1.5">
+                          <div className={`${smallfont}`}>유</div>
+                          <div className={`${bigfont}`}>酉</div>
+                          <div className={`${smallfont}`}>陰金</div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border-b border-r">
+                  <td className="border-b border-r  py-1">
                     <SideItem hanja="十星" hangeul="십성" />
                   </td>
                   <td className="border-b border-r border-r-gray-400">
@@ -205,7 +261,7 @@ export default function FourPillars() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-b border-r">
+                  <td className="border-b border-r py-1">
                     <SideItem hanja="十二運星" hangeul="십이운성 " />
                   </td>
                   <td className="border-b border-r border-r-gray-400 ">
@@ -222,7 +278,7 @@ export default function FourPillars() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-b border-r">
+                  <td className="border-b border-r py-1">
                     <SideItem hanja="十二神殺" hangeul="십이신살" />
                   </td>
                   <td className="border-b border-r border-r-gray-400">
